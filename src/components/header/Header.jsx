@@ -96,14 +96,14 @@ const Header = () => {
                 role="menu"
               >
                 <Link
-                  to="company/about"
+                  to="#"
                   role="menuitem"
                   className="block px-8 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   About Us
                 </Link>
                 <Link
-                  to="company/why-choose-us"
+                  to="#"
                   role="menuitem"
                   className="block px-8 py-2 text-gray-700 hover:bg-gray-100"
                 >
@@ -148,28 +148,28 @@ const Header = () => {
                 role="menu"
               >
                 <Link
-                  to="services/student-visa"
+                  to="#"
                   role="menuitem"
                   className="block px-8 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   3D Aluminium Signages
                 </Link>
                 <Link
-                  to="services/work-visa"
+                  to="#"
                   role="menuitem"
                   className="block px-8 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   3D Metal Signages
                 </Link>
                 <Link
-                  to="services/business-visa"
+                  to="#"
                   role="menuitem"
                   className="block px-8 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Acrylic Signages
                 </Link>
                 <Link
-                  to="services/visitor-visa"
+                  to="#"
                   role="menuitem"
                   className="block px-8 py-2 text-gray-700 hover:bg-gray-100"
                 >
@@ -226,13 +226,13 @@ const Header = () => {
               </summary>
               <div className="flex flex-col space-y-2 mt-2 animate-fadeIn">
                 <Link
-                  to="company/about"
+                  to="#"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   About Us
                 </Link>
                 <Link
-                  to="company/why-choose-us"
+                  to="#"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   Why Choose Us
@@ -250,25 +250,25 @@ const Header = () => {
               </summary>
               <div className="flex flex-col space-y-2 mt-2 animate-fadeIn">
                 <Link
-                  to="services/student-visa"
+                  to="#"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   Student Visa
                 </Link>
                 <Link
-                  to="services/work-visa"
+                  to="#"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   Work Permit Visa
                 </Link>
                 <Link
-                  to="services/business-visa"
+                  to="#"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   Business Visa
                 </Link>
                 <Link
-                  to="services/visitor-visa"
+                  to="#"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   Visitor Visa

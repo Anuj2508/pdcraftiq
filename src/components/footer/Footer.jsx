@@ -40,7 +40,7 @@ const Footer = () => {
               <ul className="space-y-2 text-lg text-dark2 dark:text-gray-400">
                 <li>
                   <Link
-                    to="services/student-visa"
+                    to="#"
                     className="cursor-pointer hover:text-primary duration-200"
                   >
                     3D Aluminium Signages
@@ -48,7 +48,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="services/work-visa"
+                    to="#"
                     className="cursor-pointer hover:text-primary duration-200"
                   >
                     3D Metal Signages
@@ -56,7 +56,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="services/visitor-visa"
+                    to="#"
                     className="cursor-pointer hover:text-primary duration-200"
                   >
                     Acrylic Signages
@@ -64,7 +64,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="services/business-visa"
+                    to="#"
                     className="cursor-pointer hover:text-primary duration-200"
                   >
                     Custom Sign Boards
@@ -87,7 +87,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="company/about"
+                    to="#"
                     className="cursor-pointer hover:text-primary duration-200"
                   >
                     About Us
@@ -95,7 +95,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="/faq"
+                    to="/"
                     className="cursor-pointer hover:text-primary duration-200"
                   >
                     FAQ

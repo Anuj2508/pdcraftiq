@@ -11,7 +11,7 @@ const BookConsultation = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="max-w-3xl mx-auto space-y-8"
+          className=" mx-auto space-y-8"
         >
           {/* Eyebrow */}
           <p className="text-xs uppercase tracking-[0.35em] text-primary font-semibold">
