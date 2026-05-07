@@ -17,7 +17,7 @@ const BookConsultation = () => {
             className="text-4xl font-bold text-center  mb-4 sm:mb-8 text-gray-800 dark:text-white"
           >
             Top Rated By{" "}
-            <span className="text-primary">Customers & Immigration</span> Firms
+            <span className="text-primary">Customers & Business</span> Firms
             With 90% Success Rate.
           </motion.h1>
           <button className="primary-btn !mt-8 inline-flex items-center gap-3 group">

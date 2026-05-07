@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
-import logo from "../../assets/logo/anuj-logo1.png";
+import logo from "../../assets/logo/pd-logo1.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -96,14 +96,14 @@ const Header = () => {
                 role="menu"
               >
                 <Link
-                  to="#"
+                  to="company/about"
                   role="menuitem"
                   className="block px-8 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   About Us
                 </Link>
                 <Link
-                  to="#"
+                  to="company/why-choose-us"
                   role="menuitem"
                   className="block px-8 py-2 text-gray-700 hover:bg-gray-100"
                 >
@@ -226,13 +226,13 @@ const Header = () => {
               </summary>
               <div className="flex flex-col space-y-2 mt-2 animate-fadeIn">
                 <Link
-                  to="#"
+                  to="company/about"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   About Us
                 </Link>
                 <Link
-                  to="#"
+                  to="company/why-choose-us"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   Why Choose Us

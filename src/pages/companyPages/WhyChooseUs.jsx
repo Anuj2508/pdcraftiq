@@ -5,36 +5,22 @@ import OurStrengths from "../../components/services/OurStrengths";
 export default function WhyChooseUs() {
   return (
     <section className="bg-white dark:bg-gray-900">
-      {/* Hero Section */}
-      {/* <div
-        className="relative bg-cover bg-center bg-no-repeat text-white"
-        style={{ backgroundImage: "url('/src/assets/passport/passport1.jpg')" }}
-      >
-        <div className="absolute inset-0 bg-primary/50"></div>{" "}
-        <div className="container max-auto py-14 md:py-24 text-center flex flex-col justify-center items-center ">
-          <h1 className="text-6xl font-bold  mb-4  ">Why Choose Us</h1>
-          <p className="mt-3 text-lg max-w-5xl mx-auto">
-            Trusted immigration services with proven success and client
-            satisfaction.
-          </p>
-        </div>
-      </div> */}
       <div
         className="relative bg-cover bg-center bg-no-repeat text-white"
-        style={{ backgroundImage: "url('/src/assets/passport/passport1.jpg')" }}
+        style={{ backgroundImage: "url('/src/assets/passport/plane.jpg')" }}
       >
-        <div className="absolute inset-0 bg-black/50"></div>{" "}
-        {/* Overlay for contrast */}
+        <div className="absolute inset-0 bg-black/50"></div>
+
         <div className="container mx-auto text-center flex flex-col justify-center items-center py-14 md:py-24 relative z-10">
-          <h1 className="text-6xl font-bold mb-2 ">
-            We Build What Your Brand Needs
-          </h1>
+          <h1 className="text-6xl font-bold mb-2 ">Why Choose PDCRAFTIQ</h1>
           <p className="mt-3 text-lg max-w-5xl mx-auto ">
-            From sign boards to large installations, we create it all. Every
-            product is custom-made to match your business identity.
+            We deliver complete signage solutions with a focus on quality,
+            durability, and design. From concept to installation, we ensure
+            smooth execution and impactful results for your business.
           </p>
         </div>
       </div>
+
       {/* Unique Selling Points */}
       <OurStrengths />
 

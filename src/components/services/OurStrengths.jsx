@@ -16,29 +16,33 @@ const OurStrengths = () => {
           <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg text-center">
             <CheckCircleIcon className="h-12 w-12 text-primary mx-auto mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
-              Expert Guidance
+              Quality Craftsmanship
             </h3>
             <p className="text-gray-600 dark:text-gray-300">
-              Our team has years of experience handling immigration cases
-              efficiently.
+              We use premium materials and precise techniques to deliver durable
+              and high-quality signage.
             </p>
           </div>
+
           <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg text-center">
             <StarIcon className="h-12 w-12 text-primary mx-auto mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
-              Proven Success
+              Creative Design
             </h3>
             <p className="text-gray-600 dark:text-gray-300">
-              High approval rates for visas and PR applications.
+              Our designs are crafted to enhance your brand identity and attract
+              maximum attention.
             </p>
           </div>
+
           <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg text-center">
             <ShieldCheckIcon className="h-12 w-12 text-primary mx-auto mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
-              Trusted & Secure
+              Reliable Execution
             </h3>
             <p className="text-gray-600 dark:text-gray-300">
-              Your personal information is safe with our secure systems.
+              From design to installation, we ensure smooth delivery and
+              complete project reliability.
             </p>
           </div>
         </div>

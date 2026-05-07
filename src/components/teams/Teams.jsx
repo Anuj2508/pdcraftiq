@@ -4,13 +4,33 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import img1 from "../../assets/passport/oneworld.webp";
+import img2 from "../../assets/passport/globe.jpg";
+import img3 from "../../assets/passport/Gateway.webp";
+import img4 from "../../assets/passport/work.webp";
+import img5 from "../../assets/passport/work1.webp";
 
 const teamMembers = [
-  "John Doe",
-  "Jane Smith",
-  "David Johnson",
-  "Alice Brown",
-  "Bob Miller",
+  {
+    name: "Aman",
+    src: img1,
+  },
+  {
+    name: "Prakhar",
+    src: img2,
+  },
+  {
+    name: "Virat",
+    src: img3,
+  },
+  {
+    name: "Vivek",
+    src: img4,
+  },
+  {
+    name: "Rahul",
+    src: img5,
+  },
 ];
 
 export default function Teams() {
@@ -33,17 +53,17 @@ export default function Teams() {
           1024: { slidesPerView: 4 },
         }}
       >
-        {teamMembers.map((name, i) => (
+        {teamMembers.map((team, i) => (
           <SwiperSlide key={i}>
             <div className="bg-white dark:bg-gray-900 rounded-2xl border shadow-none mb-0 sm:shadow-lg sm:mb-5  overflow-hidden flex flex-col items-center">
               <img
-                src={`/src/assets/images/image1.png`}
-                alt={name}
+                src={team.src}
+                alt={team.name}
                 className="w-full h-48 object-cover"
               />
               <div className="p-6 text-center">
                 <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
-                  {name}
+                  {team.name}
                 </h3>
                 <p className="text-gray-500 dark:text-gray-400">Team Member</p>
               </div>
