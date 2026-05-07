@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
-import logo from "../../assets/logo/pd-logo1.png";
+import logo from "../../assets/logo/pd-logo2.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,11 +45,11 @@ const Header = () => {
   return (
     <nav className="bg-white shadow-md fixed w-full z-50">
       <div className="container mx-auto">
-        <div className="flex justify-between items-center py-2">
+        <div className="flex justify-between items-center ">
           {/* Logo */}
           <div>
             <Link to="/">
-              <img src={logo} alt="logo" className="w-16 h-16  rounded-full" />
+              <img src={logo} alt="logo" className="w-20 h-20" />
             </Link>
           </div>
 
