@@ -59,16 +59,17 @@ const Hero = () => {
 
             {/* Title */}
             <h1 className="text-4xl sm:text-6xl md:text-8xl font-extrabold uppercase text-white leading-tight">
-              Signages That Make
-              <span className="text-primary"> Business Your</span> Stand Out
+              Signages That
+              <span className="text-primary"> Makes Your</span> Business Stand
+              Out.
             </h1>
 
             {/* Subtitle */}
             <p className="mt-5 text-base sm:text-lg md:text-xl text-white/80 font-medium max-w-2xl mx-auto">
               <i>
-                We design, manufacture, and install 3D sign boards for all types
-                of businesses . 25+ years of experience with complete end-to-end
-                service.
+                We are into manufacturing, supply, and installation of 3D
+                signages, along with all types of creative fabrication works and
+                signage materials since 1998.
               </i>
             </p>
 
