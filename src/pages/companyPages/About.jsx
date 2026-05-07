@@ -4,14 +4,14 @@ import { FaHandshake } from "react-icons/fa";
 import Teams from "../../components/teams/Teams";
 import BookConsultation from "../../components/services/BookConsultation";
 import { Eye, Goal } from "lucide-react";
-
+import img1 from "../../assets/passport/globe.jpg";
 const About = () => {
   return (
     <section className="bg-white dark:bg-gray-900">
       {/* Hero / Banner */}
       <div
         className="relative bg-cover bg-center bg-no-repeat text-white"
-        style={{ backgroundImage: "url('/src/assets/passport/globe.jpg')" }}
+        style={{ backgroundImage: `url(${img1})` }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto text-center flex flex-col justify-center items-center py-14 md:py-24 relative z-10">

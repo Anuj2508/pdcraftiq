@@ -1,13 +1,14 @@
 import React from "react";
 import TimeLine from "../../components/services/TimeLine";
 import OurStrengths from "../../components/services/OurStrengths";
+import img1 from "../../assets/passport/plane.jpg";
 
 export default function WhyChooseUs() {
   return (
     <section className="bg-white dark:bg-gray-900">
       <div
         className="relative bg-cover bg-center bg-no-repeat text-white"
-        style={{ backgroundImage: "url('/src/assets/passport/plane.jpg')" }}
+        style={{ backgroundImage: `url(${img1})` }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
 
