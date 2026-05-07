@@ -2,7 +2,7 @@ import Faq from "../components/faqs/Faq";
 import Gallery from "../components/gallery/Gallery";
 import Hero from "../components/Hero";
 import TimeLine from "../components/services/TimeLine";
-import Subscribe from "../components/subscribe/subscribe";
+import Subscribe from "../components/subscribe/Subscribe";
 import Testimonial from "../components/testimonial/Testimonial";
 import Welcome from "../components/Welcome";
 import WhyChooseUs from "../components/WhyChooseUs";
