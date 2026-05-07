@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assets/images/image1.png";
+import img from "../../assets/passport/oneworld.webp";
 import { FaHandshake } from "react-icons/fa";
 import Teams from "../../components/teams/Teams";
 import BookConsultation from "../../components/services/BookConsultation";
