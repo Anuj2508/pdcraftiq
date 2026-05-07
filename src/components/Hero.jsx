@@ -61,7 +61,7 @@ const Hero = () => {
             <h1 className="text-4xl sm:text-6xl md:text-8xl font-extrabold uppercase text-white leading-tight">
               Signages That
               <span className="text-primary"> Makes Your</span> Business Stand
-              Out.
+              Out
             </h1>
 
             {/* Subtitle */}
@@ -69,7 +69,7 @@ const Hero = () => {
               <i>
                 We are into manufacturing, supply, and installation of 3D
                 signages, along with all types of creative fabrication works and
-                signage materials since 1998.
+                signage materials since 1998
               </i>
             </p>
 
